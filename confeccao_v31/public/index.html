@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Controle de Produção - Confecção V3</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loginView" class="center">
+  <div class="login-card">
+    <div class="brand">✂️</div>
+    <h1>Controle de Produção</h1>
+    <p class="muted">Confecção · V3</p>
+    <form id="loginForm">
+      <label>Login<input id="login" required autocomplete="username"></label>
+      <label>Senha<input id="senha" type="password" required autocomplete="current-password"></label>
+      <button class="primary wide">Entrar</button>
+    </form>
+    <div class="hint">Teste: <b>admin / 1234</b> ou <b>usuario / 1234</b></div>
+  </div>
+</div>
+
+<div id="appView" class="hidden">
+<header class="topbar">
+  <div><strong>✂️ Controle de Produção</strong><span class="version">V3.1</span></div>
+  <div class="userbar"><span id="userName"></span><button id="logoutBtn" class="ghost">Sair</button></div>
+</header>
+<div class="layout">
+  <aside class="sidebar">
+    <button data-page="dashboard" class="nav active">📊 Painel</button>
+    <button data-page="lancamento" class="nav">➕ Lançar produção</button>
+    <button data-page="historico" class="nav">📋 Histórico</button>
+    <button data-page="relatorios" class="nav">📈 Relatórios</button>
+    <div id="adminNav">
+      <div class="nav-title">ADMINISTRAÇÃO</div>
+      <button data-page="costureiras" class="nav">👩‍🔧 Costureiras</button>
+      <button data-page="tipos" class="nav">🧩 Tipos</button>
+      <button data-page="subservicos" class="nav">🔧 Subserviços</button>
+      <button data-page="backup" class="nav">💾 Backup</button>
+    </div>
+  </aside>
+  <main id="main"></main>
+</div>
+</div>
+<div id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+{
+  "config": {
+    "versao": "3.1.0",
+    "nomeSistema": "Controle de Produção - Confecção"
+  },
+  "usuarios": [
+    {
+      "id": 1,
+      "login": "admin",
+      "senha": "1234",
+      "perfil": "admin",
+      "nome": "Administrador",
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "login": "usuario",
+      "senha": "1234",
+      "perfil": "usuario",
+      "nome": "Usuário",
+      "ativo": true
+    }
+  ],
+  "costureiras": [
+    {
+      "id": 1,
+      "codigo": "01",
+      "nome": "Ana",
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "codigo": "02",
+      "nome": "Beatriz",
+      "ativo": true
+    },
+    {
+      "id": 3,
+      "codigo": "03",
+      "nome": "Cláudia",
+      "ativo": true
+    }
+  ],
+  "tipos": [
+    {
+      "id": 1,
+      "codigo": "01",
+      "nome": "JUJU",
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "codigo": "02",
+      "nome": "MAYA",
+      "ativo": true
+    },
+    {
+      "id": 3,
+      "codigo": "03",
+      "nome": "MALU",
+      "ativo": true
+    }
+  ],
+  "subservicos": [
+    {
+      "id": 1,
+      "codigo": "01.1",
+      "tipoCodigo": "01",
+      "ordem": 1,
+      "nome": "Montagem",
+      "fracaoServico": 0.11,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 2,
+      "codigo": "01.2",
+      "tipoCodigo": "01",
+      "ordem": 2,
+      "nome": "Viés",
+      "fracaoServico": 0.2,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 3,
+      "codigo": "01.3",
+      "tipoCodigo": "01",
+      "ordem": 3,
+      "nome": "Fechamento lat 1",
+      "fracaoServico": 0.055,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 4,
+      "codigo": "01.4",
+      "tipoCodigo": "01",
+      "ordem": 4,
+      "nome": "Fechamento lat 2",
+      "fracaoServico": 0.055,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 5,
+      "codigo": "01.5",
+      "tipoCodigo": "01",
+      "ordem": 5,
+      "nome": "Fechamento 2 lat",
+      "fracaoServico": 0.11,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 6,
+      "codigo": "01.6",
+      "tipoCodigo": "01",
+      "ordem": 6,
+      "nome": "Travete",
+      "fracaoServico": 0.098,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 7,
+      "codigo": "02.1",
+      "tipoCodigo": "02",
+      "ordem": 1,
+      "nome": "Montagem",
+      "fracaoServico": 0.98,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 8,
+      "codigo": "02.2",
+      "tipoCodigo": "02",
+      "ordem": 2,
+      "nome": "Viés",
+      "fracaoServico": 0.2,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 9,
+      "codigo": "02.3",
+      "tipoCodigo": "02",
+      "ordem": 3,
+      "nome": "Colchete",
+      "fracaoServico": 0.98,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 10,
+      "codigo": "02.4",
+      "tipoCodigo": "02",
+      "ordem": 4,
+      "nome": "Travete alça",
+      "fracaoServico": 0.11,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 11,
+      "codigo": "03.1",
+      "tipoCodigo": "03",
+      "ordem": 1,
+      "nome": "Montagem",
+      "fracaoServico": 0.049,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 12,
+      "codigo": "03.2",
+      "tipoCodigo": "03",
+      "ordem": 2,
+      "nome": "Viés",
+      "fracaoServico": 0.21,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 13,
+      "codigo": "03.3",
+      "tipoCodigo": "03",
+      "ordem": 3,
+      "nome": "Fechamento",
+      "fracaoServico": 0.049,
+      "ativo": true,
+      "versao": 1
+    },
+    {
+      "id": 14,
+      "codigo": "03.4",
+      "tipoCodigo": "03",
+      "ordem": 4,
+      "nome": "Travete",
+      "fracaoServico": 0.15,
+      "ativo": true,
+      "versao": 1
+    }
+  ],
+  "lancamentos": [],
+  "historico": []
+}

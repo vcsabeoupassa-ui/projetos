@@ -1,0 +1,12 @@
+{
+  "name": "controle-producao-confeccao-v3",
+  "version": "3.1.0",
+  "private": true,
+  "description": "Sistema web responsivo para controle de produção de confecção - V3.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
